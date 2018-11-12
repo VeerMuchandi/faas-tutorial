@@ -492,7 +492,7 @@ The following section shows some example requests and their expected responses
 
 [source,sh,subs=attributes+]
 ----
-curl -k -X POST -H 'Content-Type: application/json' -d '{"name": "test"}' $WEB_URL.json
+curl -k -X POST -H 'Content-Type: application/json' -d '{"name": "test"}' $WEB_URL
 ----
 
 [source,json,subs=attributes+]
