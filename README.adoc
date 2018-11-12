@@ -129,7 +129,7 @@ The project {uri-openwhisk-openshift}[OpenWhisk on OpenShift] provides the OpenS
 ----
 oc new-project faas {conum-guard-sh} # <1>
 oc project -q {conum-guard-sh} # <2>
-oc process -f https://git.io/openwhisk-template | oc create -f - {conum-guard-sh} # <3>
+oc process -f https://raw.githubusercontent.com/VeerMuchandi/faas-tutorial/master/openwhisk-install/template.yml | oc create -f - {conum-guard-sh} # <3>
 oc adm policy add-role-to-user admin developer -n faas {conum-guard-sh} # <4>
 ----
 
